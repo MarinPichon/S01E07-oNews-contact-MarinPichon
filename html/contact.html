@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contact</title>
+</head>
+<body><!-- si l'aspect de TOUTE la page doit changer via CSS, est-ce qu'il ne faudrait pas appliquer une class -->
+    <div class="wrapper">
+        <div id="welcome">
+            <div id="logo">
+                <a href="index.html">O'Clock Students News</a>
+            </div>
+            <div id="welcome-message">
+                <h1>Say a word <span>contact us</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque suscipit nibh quis porttitor. Integer iaculis mi urna, a pulvinar quam adipiscing ut. Vivamus vel vestibulum mauris. </p>
+            </div>
+            <nav id="menu">
+                <a href="#">Plan du site</a>
+                <a href="#">Mentions légales</a>
+                <a href="">Contact</a>
+            </nav>
+        </div>
+        <div id="content">
+            <header id="content-header">
+                <h1>Contact</h1>
+            </header>
+            <section id="contact">
+              <form id="form" action="">
+                <!-- il faudrait pouvoir grouper ces champs car ils traitent du même sujet -->
+                  <!-- et "étiqueter" ce groupe : Identité -->
+                  <div class="form-row">
+                    <p class="label">Je suis</p>
+                    <div class="input-group">
+                      <!-- ici, un petit bouton "switch" (l'un ou l'autre), celui-là serait coché par défaut -->
+                      <label for="civilite-2">une femme</label>
+                      <span>/</span>
+                      <!-- là, le deuxième -->
+                      <label  for="civilite-1">un homme</label>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <label class="label" for="prenom">Mon prénom est </label>
+                    <!-- un champ texte tout bidon, mais avec Prénom écrit dedans -->
+                  </div>
+                  <div class="form-row">
+                    <label class="label" for="nom">Et mon nom, </label>
+                    <!-- le même, avec Nom dedans -->
+                  </div>
+                  <div class="form-row">
+                    <label class="label" for="source">J'ai connu ce site grâce à </label>
+                    <!-- là, une petite liste de sources, mais faut pas que ça prenne trop de place, elle pourrait évoluer avec le temps -->
+                  </div>
+                <!-- </groupe de champs> -->
+                <!-- deuxième groupe de champs : celui du message -->
+                  <!-- Idem, un petit libellé pour guider l'utilisateur 👌 -->
+                  <div class="form-row">
+                    <label class="label" for="email">Répondez-moi via</label>
+                    <!-- un champ pour l'adresse e-mail (mais vraiment pour une adresse e-mail, faut pas qu'on puisse rentrer n'importe quoi dedans) -->
+                  </div>
+                  <div class="form-row">
+                    <label class="label" for="message">Je voulais vous dire que</label>
+                    <!-- une belle zone de texte pour pouvoir nous écrire tout un roman 😍 -->
+                  </div>
+                  <div class="form-row">
+                    <label class="label" for="file">Et vous montrer ça aussi</label>
+                    <!-- il parait qu'on peut envoyer des fichiers, make it happen -->
+                  </div>
+                <!-- </groupe de champs> -->
+                <!-- Là, c'est plus pour la distinction visuelle mais faudrait aussi créer un groupe... de 1 🤷 -->
+                  <div class="form-row">
+                    <label class="label" for="info">Je certifie la véracité de ces informations.</label>
+                    <!-- là, une cochette -->
+                  </div>
+                <!-- </groupe de champs> -->
+                <!-- un bouton pour envoyer le tout -->
+              </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
